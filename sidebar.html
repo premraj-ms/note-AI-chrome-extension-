@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidebar</title>
+  <link rel="stylesheet" href="sidebar.css">
+</head>
+<body>
+  <div class="sidebar-wrapper">
+    <!-- Header Mount Point -->
+    <div id="header-container"></div>
+
+    <!-- Main Content Area Mount Points -->
+    <div class="content-area">
+      <div id="note-view-container"></div>
+      <div id="ai-view-container"></div>
+      <div id="settings-view-container"></div>
+      <div id="about-view-container"></div>
+    </div>
+  </div>
+
+  <!-- Toast Mount Point -->
+  <div id="toast" class="toast hidden"></div>
+
+  <!-- Component Orchestrator -->
+  <script type="module" src="sidebar.js"></script>
+</body>
+</html>
