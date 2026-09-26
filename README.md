@@ -32,10 +32,7 @@ A sleek Chrome extension (Manifest V3) that docks as a sidebar on the **right si
 2. Navigate to `chrome://extensions/` in the URL bar.
 3. Enable **Developer mode** toggle in the top-right corner.
 4. Click the **Load unpacked** button in the top-left.
-5. Select the project folder:
-   ```
-   /Users/premrajms/Desktop/chrome extention/NoteAI-extention
-   ```
+5. Select the folder where you cloned or extracted this repository.
 6. The **NoteAI** extension will now be loaded!
 
 ---
